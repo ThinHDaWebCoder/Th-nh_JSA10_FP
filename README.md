@@ -3,7 +3,7 @@
 
 ## Content: 
 ## Checkpoint:
-- [ ] **Header** (Navigation bar)
+- [x] **Header** (Navigation bar)
 - [ ] **Footer** (Creator's contact information)
 
 
