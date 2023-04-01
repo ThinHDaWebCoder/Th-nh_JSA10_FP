@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="w.css">
+</head>
+<body>
+    <div class="webbody">
+        <div id="sidebar">
+            <div>
+                <a href="javascript:void(0)" class="closebtn" onclick="sidebarClose()">&times;</a>
+                <a href="./w.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./born.html">The Born of IWD</a>
+                <a href="./iwdmeaning.html">What is IWD?</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="f2">
+                <h3>About us</h3>
+                <p>Originally made by one person.</p>
+                <p>Credit: Le Phuoc Thinh</p>
+            </div>
+        </div>
+        <div class="webbody">
+            <div class="menubutton">
+                <span class="menuspan" style="font-size:30px;cursor:pointer" onclick="sidebarOpen()"><b>&#9776;</b></span>
+            </div>
+        </div>
+        <div class="loginarea">
+            <div class="loginbox">
+                <h1>Sign Up</h1>
+                
+                <div class="getacc">
+                    <div class="usern">
+                        <input id="newuser" required="required" type="text">
+                        <span>Username</span>
+                    </div>
+                    <div class="passw">
+                        <input id="newpass" required="required" type="password">
+                        <span>Password</span>
+                    </div>
+                    <div class="passw">
+                        <input id="confpass" required="required" type="password">
+                        <span>Confirm</span>
+                    </div>
+                </div>
+                <h4 id="fill"></h4>
+                <button onclick="checkCreate()">Sign up</button>
+                <a href="http://127.0.0.1:5500/loginpage.html">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+    <script src="w.js"></script>
+</body>
+</html>
